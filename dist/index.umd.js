@@ -1,0 +1,2 @@
+!function(e,r){"object"==typeof exports&&"undefined"!=typeof module?r(exports,require("react")):"function"==typeof define&&define.amd?define(["exports","react"],r):r((e||self).useAbortControllerHook={},e.react)}(this,function(e,r){e.useAbortController=function(){return r.useState(function(){var e={current:new AbortController};function r(r){e.current.abort(r),e.current=new AbortController}return{get abort(){return r},get controller(){return e.current},get signal(){return e.current.signal}}}())[0]}});
+//# sourceMappingURL=index.umd.js.map
